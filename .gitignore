@@ -3,5 +3,13 @@ __pycache__/
 *.py[cod]
 .DS_Store
 
-# Dataset is ~5.5GB (includes a 2.3GB tar); app.py downloads it automatically
+# Dataset (downloaded automatically by app.py)
 data/
+
+# Generated at runtime
+model.pt
+predictions.csv
+training.log
+
+# Competition test features (place locally before running inference)
+student_test_features.pt
